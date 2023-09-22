@@ -1,0 +1,150 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+    font-size: 62.5%;
+    text-rendering: optimizeLegibility;
+    background-color: #ffffff;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+        
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main{
+
+    height: 100%;
+    width: 100%;
+
+}
+
+header{
+    
+    display: flex;
+    gap: 2.5rem;
+
+
+    margin-top: 1rem;
+    margin-left: 4rem;
+    
+    height: 20%;
+    width: 100%;
+    
+}
+
+#barra-pesquisa{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100%;
+    width: 90%;
+
+    background-image: url(./assets/futebol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+figure{
+    
+    height: 100%;
+
+}
+
+#logo{
+
+    height: 100%;
+
+}
+
+input{
+
+    width: 100%;
+    height: 4rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem ;
+    font-weight: bold;
+
+}
+
+section{
+
+    width: 60%;
+
+}
+
+
+
+input::placeholder{
+
+    color:rgb(223, 230, 235);
+    font-size: 1.5rem;
+    background-image: url(./assets/lupa.png);
+    background-size: 1.5rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+aside{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.icon{ width: 5rem; }
+
+#principal{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 80%;
+
+}
+
+.jogador{
+
+    height: 37rem;
+    width: 30rem;
+
+    border: 0.5rem solid #004068;
+    border-radius: 5%;
+    object-fit: cover;
+
+
+}
+
+article{
+
+
+    margin-left: 5rem;
+
+}
+
+
