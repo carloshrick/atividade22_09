@@ -1,0 +1,169 @@
+*{  /*resetar o navegador*/
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{ 
+
+    font-family: Arial, Helvetica, sans-serif; /*fontes*/
+    color: white; /*cor da fonte*/
+  
+    text-rendering: optimizeLegibility;
+    background-color: #ffffff;
+
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+        
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+main{
+    
+    height: 100%;
+    width: 100%;
+
+}
+
+#envolvente{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+
+    display: flex;
+    gap: 2.5rem;
+    
+    background-color: rgb(255, 255, 255);
+
+
+    
+    height: 13.75rem;
+    width: 100%;
+    
+}
+
+#barra-pesquisa{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    width: 45rem;
+    height: 6.25rem;
+    width: 90%;
+    margin-top: 3.75rem;
+    background-image: url(./assets/futebol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+#icons{
+    margin-top: 2.5rem;
+}
+
+span{
+    height: 1rem;
+}
+
+figure{
+
+    height: 100%;
+
+}
+
+#logo{
+
+    height: 12.5rem;
+    width: 12.5rem;
+
+}
+
+input{
+    background-color: aliceblue;
+    width: 36.25rem;
+    height: 1.875rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem ;
+    font-weight: bold;
+
+}
+
+section{
+
+    width: 60%;
+
+}
+
+
+
+input::placeholder{
+
+    color:rgb(223, 230, 235);
+    font-size: 1.5rem;
+    background-image: url(./assets/lupa.png);
+    background-size: 1.5rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    
+}
+
+aside{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.icon{ width: 5rem; }
+
+#principal{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 45rem;
+    width: 75rem;
+
+}
+
+.jogador{
+
+    height: 21.25rem;
+    width: 15rem;
+    margin-bottom: 12rem;
+    border: 0.5rem solid #004068;
+    border-radius: 5%;
+    object-fit: cover;
+
+
+}
+
+article{
+
+
+    margin-left: 5rem;
+
+}
+
+
+
